@@ -8,12 +8,13 @@
     <title>Mathematics</title>
   </head>
   <body style="position: relative;" data-spy="scroll" data-target="#mynav">
-  	<nav class="navbar fixed-top navbar-expand navbar-light bg-light" id="mynav">
+  	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="mynav">
 		  <a class="navbar-brand" href="#">MyApp</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
- 		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item">
 		        <a class="nav-link" href="#home">Home</a>
@@ -25,27 +26,31 @@
 		        <a class="nav-link" href="#dta">Download The App</a>
 		      </li>
 		    </ul>
-		  <form class="form-inline my-2 my-lg-0">
+		    <form class="form-inline my-2 my-lg-0">
 		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 		      <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
-    	 	  </form>
-		</div>	
-	</nav>
-<span id="home">f</span>
+		    </form>
+		  </div>
+</nav>
+
+<span id="home">костыль</span>
 	<div class="jumbotron text-center" style="background-image: url(img/phon.jpg); background-size: 100%; background-repeat:repeat-y; color: white; margin-top: 30px; ">
 		
-			 <h1 class="display-1 col-sm" >Mathematics For Your Mind!</h1>
+			 <h1 class="display-3" >Mathematics For Your Mind!</h1>
 			 <p class="lead">You should download this fantastic app!</p>
 			 <hr class="my-4" style="border-color:white;">
 			 <p>Want to know more? Join our mailing list!</p>
 			 <form class="form-inline">
-	  			<div class="container">
-			  			 
-						 <span class="input-group-text form-control">@</span>
-						 <input type="email" class="form-control" placeholder="Your email">
-			    	     <button type="submit" class="btn btn-primary">Sign up</button>
-			    	    
-	  			</div>
+  				<div class="container" style="width: 300px;">
+			      <div class="input-group mb-2" >
+			        <div class="input-group-prepend">
+			          <div class="input-group-text">@</div>
+			        </div>
+			        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Your email" >
+			      </div>
+			    
+			      <button type="submit" class="btn btn-primary mb-2">Sign up</button>
+			    </div>
 			</form>
 			  
    </div>
